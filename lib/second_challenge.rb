@@ -5,9 +5,9 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
+all_items = []
 
-  #code your solution here!
-
-  
+groceries.each do |aisle, item|
+  all_items << aisle.values
 
 end
