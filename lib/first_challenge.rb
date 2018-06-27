@@ -17,7 +17,9 @@ def first_challenge
 
 contacts.each do |a,b|
   b.each do |c,d|
-    delete_if d == "strawberry"
+    d.find do |strbry|
+      strbry == "strawberry"
+    end
   end
 end
 
