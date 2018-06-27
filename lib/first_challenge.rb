@@ -20,6 +20,7 @@ contacts.each do |a,b|
     d.eacha do |strbry|
       if strbry == "strawberry"
         offend = strbry
+      end
     end
   end
   offend
