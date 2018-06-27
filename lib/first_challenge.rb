@@ -14,13 +14,15 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-
+offend = ""
 contacts.each do |a,b|
   b.each do |c,d|
-    d.find do |strbry|
-      strbry == "strawberry"
+    d.eacha do |strbry|
+      if strbry == "strawberry"
+        offend = strbry
     end
   end
+  offend
 end
 
 
