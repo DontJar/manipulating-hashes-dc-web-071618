@@ -7,7 +7,7 @@ def second_challenge
   }
 all_items = []
 
-groceries.values
+groceries.values.flatten
 
 
 end
