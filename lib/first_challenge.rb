@@ -17,13 +17,10 @@ def first_challenge
 offend = ""
 contacts.each do |a,b|
   b.each do |c,d|
-    d.eacha do |strbry|
-      if strbry == "strawberry"
-        offend = strbry
-      end
+    if c == "favorite_icecream_flavors"
+      c.delete_if {|x| x == "strawberry"}
     end
   end
-  offend
 end
 
 
