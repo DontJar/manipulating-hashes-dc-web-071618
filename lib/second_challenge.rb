@@ -9,6 +9,7 @@ all_items = []
 
 groceries.each do |aisle, item|
   all_items << aisle.values
+end
 
 all_items
 
