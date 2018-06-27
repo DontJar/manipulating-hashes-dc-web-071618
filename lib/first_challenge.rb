@@ -15,10 +15,10 @@ def first_challenge
     }
   }
 offend = ""
-contacts.each do |a,b|
-  b.each do |c,d|
-    if c == "favorite_icecream_flavors"
-      c.delete_if {|x| x == "strawberry"}
+contacts.each do |names, facts|
+  facts.each do |cats, data|
+    if data == "favorite_icecream_flavors"
+      data.delete_if {|x| x == "strawberry"}
     end
   end
 end
