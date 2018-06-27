@@ -17,7 +17,7 @@ def first_challenge
 offend = ""
 contacts.each do |names, facts|
   facts.each do |cats, data|
-    if cats == "favorite_icecream_flavors"
+    if cats == favorite_icecream_flavors:
       data.delete_if {|x| x == "strawberry"}
     end
   end
