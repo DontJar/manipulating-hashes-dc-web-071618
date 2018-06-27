@@ -8,8 +8,6 @@ def second_challenge
 all_items = []
 
 groceries.values
-end
 
-all_items
 
 end
