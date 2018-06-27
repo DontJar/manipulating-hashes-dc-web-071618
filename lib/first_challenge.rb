@@ -14,11 +14,10 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-offend = ""
-contacts.each do |names, facts|
-  facts.each do |cats, data|
-    if cats == favorite_icecream_flavors
-      data.delete_if {|x| x == "strawberry"}
+contacts["Freddy Mercury"].each do |names, facts|
+  if names == favorite_icecream_flavors:
+      facts.delete_if |x|
+      x == "strawberry"
     end
   end
 end
