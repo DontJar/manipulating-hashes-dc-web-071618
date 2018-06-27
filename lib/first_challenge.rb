@@ -17,7 +17,6 @@ def first_challenge
 
 contacts.each do |a,b|
   b.each do |c,d|
-    binding.pry
     delete_if d == "strawberry"
   end
 end
